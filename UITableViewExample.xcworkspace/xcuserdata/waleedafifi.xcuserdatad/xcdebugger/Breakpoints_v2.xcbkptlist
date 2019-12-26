@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F60F2321-E071-45CD-B6C7-F7D841972ED8"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FEF7A0E5-F789-4C03-9483-84414439358B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UITableViewExample/ViewControllers/Common/CollectionView/GeneralCollectionView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "FEF7A0E5-F789-4C03-9483-84414439358B - 3e636ecc81428573"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UITableViewExample.GeneralCollectionView.objects.getter : Swift.Array&lt;UITableViewExample.GeneralCollectionViewData&gt;"
+                  moduleName = "UITableViewExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/waleedafifi/Desktop/xCodeProject/UITableViewExample/UITableViewExample/ViewControllers/Common/CollectionView/GeneralCollectionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "122">
+               </Location>
+               <Location
+                  uuid = "FEF7A0E5-F789-4C03-9483-84414439358B - 2609d2a7db412987"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UITableViewExample.GeneralCollectionView.objects.setter : Swift.Array&lt;UITableViewExample.GeneralCollectionViewData&gt;"
+                  moduleName = "UITableViewExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/waleedafifi/Desktop/xCodeProject/UITableViewExample/UITableViewExample/ViewControllers/Common/CollectionView/GeneralCollectionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "FEF7A0E5-F789-4C03-9483-84414439358B - 39a348b3e2461e74"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UITableViewExample.GeneralCollectionView.objects.modify : Swift.Array&lt;UITableViewExample.GeneralCollectionViewData&gt;"
+                  moduleName = "UITableViewExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/waleedafifi/Desktop/xCodeProject/UITableViewExample/UITableViewExample/ViewControllers/Common/CollectionView/GeneralCollectionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "FEF7A0E5-F789-4C03-9483-84414439358B - a60d76fc277d27e0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UITableViewExample.GeneralCollectionView.objects.modify : Swift.Array&lt;UITableViewExample.GeneralCollectionViewData&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "UITableViewExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/waleedafifi/Desktop/xCodeProject/UITableViewExample/UITableViewExample/ViewControllers/Common/CollectionView/GeneralCollectionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "FEF7A0E5-F789-4C03-9483-84414439358B - 6d5c36ddf2fbbd9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UITableViewExample.GeneralCollectionView.init(frame: __C.CGRect, collectionViewLayout: __C.UICollectionViewLayout) -&gt; UITableViewExample.GeneralCollectionView"
+                  moduleName = "UITableViewExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/waleedafifi/Desktop/xCodeProject/UITableViewExample/UITableViewExample/ViewControllers/Common/CollectionView/GeneralCollectionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "225">
+               </Location>
+               <Location
+                  uuid = "FEF7A0E5-F789-4C03-9483-84414439358B - 3b10108a798d089"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UITableViewExample.GeneralCollectionView.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;UITableViewExample.GeneralCollectionView&gt;"
+                  moduleName = "UITableViewExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/waleedafifi/Desktop/xCodeProject/UITableViewExample/UITableViewExample/ViewControllers/Common/CollectionView/GeneralCollectionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "158">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1FB2DCF2-E646-46CD-93E0-D53202E2CEBB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UITableViewExample/ViewControllers/Common/CollectionView/GeneralCollectionView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

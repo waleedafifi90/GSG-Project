@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Bold.ttf">
+            <string>Roboto-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="productCollectionViewCell" id="gTV-IL-0wX" customClass="productCollectionViewCell" customModule="UITableViewExample" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="174" height="40"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="174" height="40"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bNL-3f-3C7">
+                        <rect key="frame" x="8" y="0.0" width="166" height="40"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="kqx-6F-23e">
+                                <rect key="frame" x="0.0" y="0.0" width="166" height="40"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="none" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Dt0-YI-sDe">
+                                        <rect key="frame" x="0.0" y="0.0" width="166" height="38"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="Plh-NJ-Jsn"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NdI-el-NmY">
+                                        <rect key="frame" x="0.0" y="38" width="166" height="2"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="2" id="LQP-tS-wEh"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="kqx-6F-23e" firstAttribute="top" secondItem="bNL-3f-3C7" secondAttribute="top" id="NG3-jm-Mhg"/>
+                            <constraint firstAttribute="trailing" secondItem="kqx-6F-23e" secondAttribute="trailing" id="Q86-CU-DS2"/>
+                            <constraint firstItem="kqx-6F-23e" firstAttribute="leading" secondItem="bNL-3f-3C7" secondAttribute="leading" id="b95-XY-BGc"/>
+                            <constraint firstAttribute="bottom" secondItem="kqx-6F-23e" secondAttribute="bottom" id="iE2-7W-tUE"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="bNL-3f-3C7" secondAttribute="trailing" id="AKU-II-AZy"/>
+                <constraint firstItem="bNL-3f-3C7" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Exd-lk-xak"/>
+                <constraint firstAttribute="bottom" secondItem="bNL-3f-3C7" secondAttribute="bottom" id="bD4-RT-04N"/>
+                <constraint firstItem="bNL-3f-3C7" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="p8p-OB-4zd"/>
+                <constraint firstItem="bNL-3f-3C7" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="wMr-VM-nTQ"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="427" height="42.5"/>
+            <connections>
+                <outlet property="lblCategoryName" destination="Dt0-YI-sDe" id="zHe-2J-FcK"/>
+                <outlet property="viewSelection" destination="NdI-el-NmY" id="8Nx-b7-lA7"/>
+            </connections>
+            <point key="canvasLocation" x="408.69565217391306" y="132.58928571428572"/>
+        </collectionViewCell>
+    </objects>
+</document>
